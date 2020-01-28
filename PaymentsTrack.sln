@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentsTrack", "PaymentsTrack\PaymentsTrack.csproj", "{73847A77-8CE6-4C4E-BFB3-A8A8B1E1D467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73847A77-8CE6-4C4E-BFB3-A8A8B1E1D467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73847A77-8CE6-4C4E-BFB3-A8A8B1E1D467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73847A77-8CE6-4C4E-BFB3-A8A8B1E1D467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73847A77-8CE6-4C4E-BFB3-A8A8B1E1D467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55FE750D-5960-4610-9C2C-28F0F1FACDA5}
+	EndGlobalSection
+EndGlobal

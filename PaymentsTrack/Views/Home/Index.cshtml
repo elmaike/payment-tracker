@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <h1>Payments</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Payments done since the beginning </h2>
+                    <h3>$@ViewBag.TotalPayments</h3>
+                </div>
+                <div class="col-md-4">
+                    <h2>Payments done current month </h2>
+                    <h3>$@ViewBag.TotalPaymentsCurrentMonth</h3>
+                </div>
+                <div class="col-md-4">
+                    <h2>Payments done last 7 days </h2>
+                    <h3>$@ViewBag.TotalPaymentsLastSevenDays</h3>
+                </div>
+            </div>
+        }
+        else
+        {
+    <h2>Welcome to My Payments Tracker please @Html.ActionLink("register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" }) or @Html.ActionLink("log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</h2>
+            
+        }
+    </div>
+
